@@ -1,0 +1,15 @@
+<Solution>
+  <PropertyGroup Name="Rabbit" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="bg.png" />
+        <Image Name="bunny.png" />
+        <Image Name="CloseNormal.png" />
+        <Image Name="CloseSelected.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="stone.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
