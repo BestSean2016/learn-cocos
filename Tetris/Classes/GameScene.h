@@ -23,15 +23,15 @@ public:
     
 public:
     // GameCtrlLayerDelegate
-    virtual void gameCtrlLayerClickStartGame();
-    virtual void gameCtrlLayerStartAI(bool AIOn);
-    virtual void gameCtrlLayerClickAccelerate();
-    virtual void gameCtrlLayerClickDecelerate();
+    virtual void  gameCtrlLayerClickStartGame();
+    virtual void  gameCtrlLayerStartAI(bool AIOn);
+    virtual void  gameCtrlLayerClickAccelerate();
+    virtual void  gameCtrlLayerClickDecelerate();
     virtual float gameCtrlLayerGetAISpeed();
-    virtual void gameCtrlLayerClickLeft();
-    virtual void gameCtrlLayerClickRight();
-    virtual void gameCtrlLayerClickRotate();
-    virtual void gameCtrlLayerClickThrowDown();
+    virtual void  gameCtrlLayerClickLeft();
+    virtual void  gameCtrlLayerClickRight();
+    virtual void  gameCtrlLayerClickRotate();
+    virtual void  gameCtrlLayerClickThrowDown();
     
 private:
     GameLayer *m_gameLayer;

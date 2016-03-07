@@ -23,15 +23,15 @@ using namespace cocos2d::ui;
 class GameCtrlLayerDelegate
 {
 public:
-    virtual void gameCtrlLayerClickStartGame() = 0;
-    virtual void gameCtrlLayerStartAI(bool AIOn) = 0;
-    virtual void gameCtrlLayerClickAccelerate() = 0;
-    virtual void gameCtrlLayerClickDecelerate() = 0;
+    virtual void  gameCtrlLayerClickStartGame() = 0;
+    virtual void  gameCtrlLayerStartAI(bool AIOn) = 0;
+    virtual void  gameCtrlLayerClickAccelerate() = 0;
+    virtual void  gameCtrlLayerClickDecelerate() = 0;
     virtual float gameCtrlLayerGetAISpeed() = 0;
-    virtual void gameCtrlLayerClickLeft() = 0;
-    virtual void gameCtrlLayerClickRight() = 0;
-    virtual void gameCtrlLayerClickRotate() = 0;
-    virtual void gameCtrlLayerClickThrowDown() = 0;
+    virtual void  gameCtrlLayerClickLeft() = 0;
+    virtual void  gameCtrlLayerClickRight() = 0;
+    virtual void  gameCtrlLayerClickRotate() = 0;
+    virtual void  gameCtrlLayerClickThrowDown() = 0;
 };
 
 class GameCtrlLayer : public Layer
@@ -53,11 +53,11 @@ private:
 private:
     GameCtrlLayerDelegate *m_delegate;
     
-    bool m_AIOn;
+    bool  m_AIOn;
     Label *m_labelAISwitch;
     Label *m_labelAISpeed;
-    Menu *m_menuLeft;
-    Menu *m_menuRight;
+    Menu  *m_menuLeft;
+    Menu  *m_menuRight;
 };
 
 #endif /* defined(__AITetris__GameCtrlLayer__) */
